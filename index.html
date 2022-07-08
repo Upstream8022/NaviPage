@@ -1,289 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="小邱鱼丨个人导航  简单实用的个人导航网页，收录几个够用的网站；可以实现多引擎搜索，如百度，谷歌，必应">
-    <meta name="keywords" content="导航,简单实用的导航,多搜索引擎,谷歌,百度,必应,搜索，网盘，电影">
-    <meta name="generator" content="小邱鱼 丨 @2022">
-    <link rel="shortcut icon" href="img/icon-black.png">
-    <link rel="stylesheet" href="css/semantic.min.css">
-    <link rel="stylesheet" href="css/m_dh.style.css">
-    <title>小邱鱼丨个人导航</title>
-    <script src="js/jquery.min.js"></script>
-</head>
-<body id="killie" >
-<!--使用了Semantic-UI进行美化-->
 
-<div class="ui inverted menu borderless">
-    <div class="ui container">
-        <span class="header item">
-            <img class="logo" src="img/icon-white.png">
-                个人导航
-        </span>
-        <a href="https://git.myprog.cn" class="item" target="_blank">Fork it</a>
-        <a class="ui item right floated" id="goDonate">
-            赏一个
-        </a>
-    </div>
-</div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="小邱鱼丨个人导航  简单实用的个人导航网页，收录几个够用的网站；可以实现多引擎搜索，如百度，谷歌，必应">
+        <meta name="keywords" content="导航,简单实用的导航,多搜索引擎,谷歌,百度,必应,搜索，网盘，电影">
+        <meta name="generator" content="小邱鱼 丨 @2022">
+        <link rel="shortcut icon" href="img/icon-black.png">
+        <link rel="stylesheet" href="css/semantic.min.css">
+        <link rel="stylesheet" href="css/m_dh.style.css">
+        <title>小邱鱼丨个人导航</title>
+        <script src="js/jquery.min.js"></script>
+    </head>
 
-<div class="ui main container">
-    <img class="centerlog" src="img/logo.png">
-    <div class="ui search">
-        <div class="ui input">
-            <input id="search" name="wd" class="prompt" placeholder="" type="text" autofocus="autofocus">
-        </div>
-    </div>
-    <div class="ui sbuttons">
-        <button class="ui button" id="Fsearch" >
-            F搜
-        </button>
-        <button class="ui button" id="google" >
-            谷歌
-        </button>
-       <button class="ui button" id="bing">
-            必应
-        </button>
-        <button class="ui button" id="baidu" >
-            百度
-        </button>
-        <button class="ui button" id="github">
-            GitHub
-        </button>
-        <button class="ui button" id="niceso">
-            Nice搜索
-        </button>
-    </div>
-    <div class="ui  two column grid stables ">
-    <div class="column ">
-        <table class="ui definition small table ">
-            <tbody>
-            <tr>
-                <td align="center">我的</td>
-                <td align="center"><a href="https://ip.myprog.cn" target="_blank" >Alist</a></td>
-                <td align="center"><a href="" target="_blank" >待定</a></td>
-                <td align="center"><a href="" target="_blank">待定</a></td>
-                <td align="center"><a href="" target="_blank">待定</a></td>
-            </tr>
-            <tbody>
-        <tr>
-                <td align="center">待定</td>
-                <td align="center"><a href="" target="_blank" >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank" >待定</a></td>
-                <td align="center"><a href="" target="_blank" >待定</a></td>
-            </tr>
-            </tbody>
-
-            <tbody>
-            <tr >
-                <td   align="center">待定</td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-            </tr>
-            <tbody>
-            <tr>
-                <td   align="center">待定</td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-            </tr>
-            </tbody>
-
-            <tbody>
-            <tr  >
-                <td align="center">待定</td>
-                <td align="center"><a href="" target="_blank" >待定</a></td>
-                <td align="center"><a href="" target="_blank" >待定</a></td>
-                <td align="center"><a href="" target="_blank" >待定</a></td>
-                <td align="center"><a href="" target="_blank" >待定</a></td>
-            </tr>
-            <tbody>
-            <tr>
-                <td   align="center">待定</td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-            </tr>
-            </tbody>
-
-            <tbody>
-            <tr  >
-                <td   align="center">待定</td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-            </tr>
-
-        </table>
-    </div>
-    <div  class=" column">
-        <table class="ui definition small table ">
-            <tbody>
-            <tr>
-                <td   align="center">待定</td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-            </tr>
-            </tbody>
-            <tbody>
-            <tr  >
-                <td  align="center">待定</td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-            </tr>
-            <tbody>
-            <tr>
-                <td  align="center">待定</td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-            </tr>
-            </tbody>
-
-            <tbody>
-            <tr  >
-                <td   align="center">待定</td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-            </tr>
-            <tbody>
-            <tr>
-                <td   align="center">待定</td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-            </tr>
-            </tbody>
-            <tbody>
-            <tr  >
-                <td   align="center">待定</td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                 <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-            </tr>
-            <tbody>
-            <tr>
-                <td  align="center">待定</td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-                <td align="center"><a href="" target="_blank"  >待定</a></td>
-            </tr>
-            </tbody>
-        </table>
-
-    </div>
-    </div>
-    <div class="FooterPush"></div>
-</div>
-
-<div class="ui footer segment  inverted vertical">
-   <div class="footer-inner" >
-    <div class="copyright">
-        ©
-        <span itemprop="copyrightYear">2022</span>
-        <div class="ui inverted small horizontal link list">
-        <a href="https://www.gotoss.cn/" class="item">小邱鱼丨个人导航</a>
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" class="item" target="_blank" style="display: inline-block; vertical-align: middle; margin-left: 10px;"><img alt="知识共享许可协议" style="border-width:0" src="https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nc-sa.svg"></a>
-        </div>
-    </div>
-
-    <div class="powered-by">
-             Powered by <div class="ui inverted small horizontal link list"> <a class="item" href="https://www.gotoss.cn">小邱鱼</a></div>
-        丨<span id="busuanzi_container_site_pv">访问量：<span id="busuanzi_value_site_pv"></span></span>
+    <body id="killie" >
+    <!--使用了Semantic-UI进行美化-->
+        <div class="ui inverted menu borderless">
+            <div class="ui container">
+                <span class="header item">
+                    <img class="logo" src="img/icon-white.png">
+                        个人导航
+                </span>
+                <a href="https://git.myprog.cn" class="item" target="_blank">Fork it</a>
+                <a class="ui item right floated" id="goDonate">
+                    赏一个
+                </a>
+            </div>
         </div>
 
-    </div>
-</div>
+        <div class="ui main container">
+            <img class="centerlog" src="img/logo.png">
+            <div class="ui search">
+                <div class="ui input">
+                    <input id="search" name="wd" class="prompt" placeholder="" type="text" autofocus="autofocus">
+                </div>
+            </div>
+            <div class="ui sbuttons">
+                <button class="ui button" id="Fsearch" >
+                    F搜
+                </button>
+                <button class="ui button" id="google" >
+                    谷歌
+                </button>
+            <button class="ui button" id="bing">
+                    必应
+                </button>
+                <button class="ui button" id="baidu" >
+                    百度
+                </button>
+                <button class="ui button" id="github">
+                    GitHub
+                </button>
+                <button class="ui button" id="niceso">
+                    Nice搜索
+                </button>
+            </div>
+            <div class="ui  two column grid stables ">
+                <div class="column ">
+                    <table class="ui definition small table ">
+                        <tbody>
+                            <tr>
+                                <td align="center">我的</td>
+                                <td align="center"><a href="https://ip.myprog.cn" target="_blank" >Alist</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank">待定</a></td>
+                                <td align="center"><a href="" target="_blank">待定</a></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td align="center">待定</td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank"  >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td align="center">待定</td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank"  >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td align="center">待定</td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank"  >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td align="center">待定</td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank"  >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td align="center">待定</td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank"  >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td align="center">待定</td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank"  >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div  class=" column">
+                    <table class="ui definition small table ">
+                        <tbody>
+                            <tr>
+                                <td align="center">我的</td>
+                                <td align="center"><a href="https://ip.myprog.cn" target="_blank" >Alist</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank">待定</a></td>
+                                <td align="center"><a href="" target="_blank">待定</a></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td align="center">待定</td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank"  >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td align="center">待定</td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank"  >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td align="center">待定</td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank"  >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td align="center">待定</td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank"  >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td align="center">待定</td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank"  >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td align="center">待定</td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank"  >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                                <td align="center"><a href="" target="_blank" >待定</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        <div class="FooterPush"></div>
+        </div>
+
+        <div class="ui footer segment  inverted vertical">
+            <div class="footer-inner" >
+                <div class="copyright">
+                    ©
+                    <span itemprop="copyrightYear">2022</span>
+                    <div class="ui inverted small horizontal link list">
+                    <a href="https://www.gotoss.cn/" class="item">小邱鱼丨个人导航</a>
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" class="item" target="_blank" style="display: inline-block; vertical-align: middle; margin-left: 10px;"><img alt="知识共享许可协议" style="border-width:0" src="https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nc-sa.svg"></a>
+                    </div>
+                </div>
+
+                <div class="powered-by">
+                    Powered by <div class="ui inverted small horizontal link list"> <a class="item" href="/">小邱鱼</a></div>
+                <span id="busuanzi_container_site_pv">访问量：<span id="busuanzi_value_site_pv"></span></span>
+                </div>
+            </div>
+        </div>
 
 
-<!-- 弹出二维码 -->
-<div id="donate">
+        <!-- 弹出二维码 -->
+        <div id="donate">
 
-</div>
-</body>
-<script src="js/semantic.min.js"></script>
-<!--百度统计-->
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?08782df572e5129fbac8da8687b7b420";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-<!--搜索引擎-->
-<script src="js/search.js"></script>
-<script>
-    $(document).ready(function () {
+        </div>
+    </body>
 
-        $('#goDonate').click(function () {
-            $('.ui.modal').modal('show');
+    <script src="js/semantic.min.js"></script>
+    <!--百度统计-->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?08782df572e5129fbac8da8687b7b420";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <!--搜索引擎-->
+    <script src="js/search.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#goDonate').click(function () {
+                $('.ui.modal').modal('show');
+            });
         });
-
-    });
-    document.getElementById("donate").innerHTML=
-        "<div class=\"ui basic small modal \">" +
-        " <div class=\"content\">" +
-        "<div class=\"ui two cards\">" +
-        "<div class=\" card\"> " +
-        "<div class=\"image\">" +
-        "<img src=\"img/alipay.png\">" +
-        "</div>" +
-        "<div class=\"content \">" +
-        "<div class=\"center aligned header \">Alipay</div>" +
-        " </div>" +
-        "</div>" +
-        " <div class=\"card\">" +
-        "<div class=\"image\">" +
-        "<img src=\"img/wechatpay.png\"></div>" +
-        "<div class=\"content\"><a class=\"center aligned header\" >WeChatPay</a></div>" +
-        "</div>" +
-        "</div>" +
-        "</div>" +
-        "<div class=\"actions\">" +
-        "<div class=\"ui red basic cancel inverted button\">Back</div></div></div>";
-
-           
-</script>
-<!--引入不蒜子计数-->
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<script type="text/javascript">var OriginTitile = document.title;
-var titleTime;
-document.addEventListener('visibilitychange',
-    function() {
-        if (document.hidden) {
-            document.title = '快来搜点啥吧~' ;
-            clearTimeout(titleTime);
-        } else {
-            document.title = '你来了哈~ ' ;
-            titleTime = setTimeout(function() {
-                    document.title = OriginTitile;
-                },
-                2000);
-        }
-    });
-</script>
-    <!--劝退IE-->
-    <script src="js/checkIE.js"></script>
-<!-- 引入superplaceholder.js，实现input打字机效果 -->
-<script src="js/superplaceholder.js"></script>
-<script src="js/checkOs.js"></script>
+        document.getElementById("donate").innerHTML=
+            "<div class=\"ui basic small modal \">" +
+            " <div class=\"content\">" +
+            "<div class=\"ui two cards\">" +
+            "<div class=\" card\"> " +
+            "<div class=\"image\">" +
+            "<img src=\"img/alipay.png\">" +
+            "</div>" +
+            "<div class=\"content \">" +
+            "<div class=\"center aligned header \">Alipay</div>" +
+            " </div>" +
+            "</div>" +
+            " <div class=\"card\">" +
+            "<div class=\"image\">" +
+            "<img src=\"img/wechatpay.png\"></div>" +
+            "<div class=\"content\"><a class=\"center aligned header\" >WeChatPay</a></div>" +
+            "</div>" +
+            "</div>" +
+            "</div>" +
+            "<div class=\"actions\">" +
+            "<div class=\"ui red basic cancel inverted button\">Back</div></div></div>";
+ 
+    </script>
+    <!--引入不蒜子计数-->
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <script type="text/javascript">var OriginTitile = document.title;
+    var titleTime;
+    document.addEventListener('visibilitychange',
+        function() {
+            if (document.hidden) {
+                document.title = '快来搜点啥吧~' ;
+                clearTimeout(titleTime);
+            } else {
+                document.title = '你来了哈~ ' ;
+                titleTime = setTimeout(function() {
+                        document.title = OriginTitile;
+                    },
+                    2000);
+            }
+        });
+    </script>
+        <!--劝退IE-->
+        <script src="js/checkIE.js"></script>
+    <!-- 引入superplaceholder.js，实现input打字机效果 -->
+    <script src="js/superplaceholder.js"></script>
+    <script src="js/checkOs.js"></script>
 
 </html>
